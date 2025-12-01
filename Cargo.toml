@@ -3,4 +3,11 @@ name = "aoc-2025-rs"
 version = "0.1.0"
 edition = "2024"
 
+[profile.release]
+debug = true
+codegen-units = 1
+lto = "fat"
+
 [dependencies]
+pathfinding = "4.14.0"
+test-case = "3.3.1"
