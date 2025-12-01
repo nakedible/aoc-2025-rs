@@ -6,7 +6,7 @@ fn parse_input(filename: &str) -> i64 {
     ret
 }
 
-#[test_case("inputs/input-01.txt" => ignore)]
+#[test_case("inputs/input-11.txt" => ignore)]
 pub fn puzzle1(filename: &str) -> i64 {
     let input = parse_input(filename);
 
@@ -14,7 +14,7 @@ pub fn puzzle1(filename: &str) -> i64 {
     ret
 }
 
-#[test_case("inputs/input-01.txt" => ignore)]
+#[test_case("inputs/input-11.txt" => ignore)]
 pub fn puzzle2(filename: &str) -> i64 {
     let input = parse_input(filename);
 
